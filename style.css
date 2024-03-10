@@ -1,0 +1,71 @@
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .list-group-item {
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    border: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f8f8f8;
+  }
+  
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-btn:hover,
+  .delete-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+
+  .edit-popup {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-popup input[type="text"],
+  .edit-popup select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .edit-popup button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-popup button:hover {
+    background-color: #f0f0f0;
+  }
+  body {
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
